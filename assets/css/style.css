@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-size: 24px;
+	line-height: 150%;
+	font-family: Arial, sans-serif;
+	color: #000;
+	text-align: center;
+}
+
+.wrapper {
+	width: 1300px;
+	min-height: 100%;
+	overflow: hidden;
+	margin: 40px auto;
+	padding: 0 20px;
+}
+
+h1, h2 {
+	color: #137efe; /* blue */
+	font-size: 72px;
+	padding: 10px;
+	margin: 50px 0;
+}
+
+button {
+  	width:200px;
+  	height:50px;
+  	margin: 10px 0;
+}
+
+form {
+	margin: 20px;
+}
+
+img {
+	width: 400px;
+	height: 200px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.item {
+	position: relative;
+	float: left;
+/*	clear: both;*/
+}
